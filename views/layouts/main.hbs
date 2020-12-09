@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ed1d24">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CMS App</title>
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/dashlite.css?ver=1.4.0">
+        <link id="skin-default" rel="stylesheet" href="/assets/css/theme.css?ver=1.4.0">
+    </head>
+
+    <body class="nk-body npc-crypto {{#if login}}has-sidebar has-sidebar-fat{{else}}pg-auth{{/if}} ui-clean">
+        <div class="nk-app-root">
+            <div class="nk-main ">
+                {{{body}}}
+            </div>
+        </div>
+
+        <script src="/assets/js/bundle.js?ver=1.4.0"></script>
+        <script src="/assets/js/scripts.js?ver=1.4.0"></script>
+    </body>
+</html>
